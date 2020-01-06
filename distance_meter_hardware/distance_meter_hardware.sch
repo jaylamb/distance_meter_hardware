@@ -139,26 +139,6 @@ Wire Wire Line
 Wire Wire Line
 	3600 5150 3600 5350
 Wire Wire Line
-	4350 5150 4350 3350
-Wire Wire Line
-	4350 3350 4900 3350
-Wire Wire Line
-	4250 5150 4250 3450
-Wire Wire Line
-	4250 3450 4900 3450
-Wire Wire Line
-	4150 5150 4150 3750
-Wire Wire Line
-	4150 3750 4900 3750
-Wire Wire Line
-	4050 5150 4050 3650
-Wire Wire Line
-	4050 3650 4900 3650
-Wire Wire Line
-	3950 5150 3950 3550
-Wire Wire Line
-	3950 3550 4900 3550
-Wire Wire Line
 	5300 3750 5700 3750
 $Comp
 L power:GND #PWR0106
@@ -177,11 +157,6 @@ Wire Wire Line
 	5400 4150 5700 4150
 NoConn ~ 4900 3850
 NoConn ~ 4900 3950
-NoConn ~ 4900 4050
-NoConn ~ 4900 4150
-NoConn ~ 4900 4250
-NoConn ~ 4900 4350
-NoConn ~ 4900 4450
 NoConn ~ 4900 4550
 NoConn ~ 4900 3250
 NoConn ~ 5700 3250
@@ -224,4 +199,29 @@ F 3 "" H 5550 4250 50  0001 C CNN
 	1    5550 4250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4350 5150 4350 4450
+Wire Wire Line
+	4350 4450 4900 4450
+Wire Wire Line
+	4250 5150 4250 4350
+Wire Wire Line
+	4250 4350 4900 4350
+Wire Wire Line
+	3950 5150 3950 4250
+Wire Wire Line
+	3950 4250 4900 4250
+Wire Wire Line
+	4050 5150 4050 4150
+Wire Wire Line
+	4050 4150 4900 4150
+Wire Wire Line
+	4150 5150 4150 4050
+Wire Wire Line
+	4150 4050 4900 4050
+NoConn ~ 4900 3350
+NoConn ~ 4900 3450
+NoConn ~ 4900 3550
+NoConn ~ 4900 3650
+NoConn ~ 4900 3750
 $EndSCHEMATC
