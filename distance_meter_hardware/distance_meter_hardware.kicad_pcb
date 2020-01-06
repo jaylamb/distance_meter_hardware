@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -87,9 +87,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -479,7 +479,7 @@
 
   (gr_poly (pts (xy 100.2 47.18) (xy 117.98 47.18) (xy 117.98 90.36) (xy 100.2 90.36)) (layer F.Fab) (width 0.1))
   (dimension 55.5 (width 0.15) (layer F.SilkS)
-    (gr_text "55.500 mm" (at 40.12 68.77 90) (layer F.SilkS) (tstamp 5E127E05)
+    (gr_text "55.500 mm" (at 40.12 68.77 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 58.42 41.02) (xy 40.833579 41.02)))
@@ -491,7 +491,7 @@
     (arrow2b (pts (xy 41.42 96.52) (xy 40.833579 95.393496)))
   )
   (dimension 95.5 (width 0.15) (layer F.SilkS) (tstamp 5E11807E)
-    (gr_text "95.500 mm" (at 106.17 103.32) (layer F.SilkS) (tstamp 5E127DFC)
+    (gr_text "95.500 mm" (at 106.17 103.32) (layer F.SilkS) (tstamp 5E11807E)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 153.92 96.52) (xy 153.92 102.606421)))
@@ -554,7 +554,7 @@
   (segment (start 96.55 72.58) (end 80.27 56.3) (width 0.254) (layer F.Cu) (net 18))
   (segment (start 101.47 72.58) (end 96.55 72.58) (width 0.254) (layer F.Cu) (net 18))
 
-  (zone (net 46) (net_name +5V) (layer F.Cu) (tstamp 5E1275F2) (hatch edge 0.508)
+  (zone (net 46) (net_name +5V) (layer F.Cu) (tstamp 5E127F19) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -837,7 +837,7 @@
       )
     )
   )
-  (zone (net 45) (net_name GND) (layer B.Cu) (tstamp 5E1275EF) (hatch edge 0.508)
+  (zone (net 45) (net_name GND) (layer B.Cu) (tstamp 5E127F16) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
