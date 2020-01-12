@@ -14,13 +14,12 @@ Software deployed to this hardware is located
 * 1x Adafruit Metro Mini (ATMEGA328P)
 * 1x MaxBotix LV-MaxSonar-EZ SONAR range finder
 * 1x Adafruit 0.96" monochrome 128x64 OLED graphic display
-* 1x Project box, P/N TBD.
+* 1x CircuitSetup 3.94" x 2.375" 1.875" project box
+* 4x 7-position female header (PPPC071LFBN-RC)
+* 2x 14-position female header (PPPC141LFBN-RC)
 
 ## Usage
 Project schematic and PCB layout files are avilable for reference. Project Gerbers can be
 used to manufacture the hardware itself.
-
-##TODO
-A project Bill of Materials is needed.
 
 ## License [Apache 2.0](http://www.apache.org/licenses/)
