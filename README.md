@@ -5,7 +5,9 @@ houses connectors for the hardware. A list of the hardware is available below. T
 designed to be fastened within a project box.
 
 Each piece of attached hardware is a complete built-up unit, and requires no supporting
-circuitry. 
+circuitry.
+
+![PCB Render](https://github.com/jaylamb/distance_meter_hardware/blob/master/distance_meter_hardware/distance_meter_hardware.jpg)
 
 Software deployed to this hardware is located
 [here](https://github.com/jaylamb/distance_meter.git).
@@ -19,7 +21,7 @@ Software deployed to this hardware is located
 * 2x 14-position female header (PPPC141LFBN-RC)
 
 ## Usage
-Project schematic and PCB layout files are avilable for reference. Project Gerbers can be
+Project schematic and PCB layout files are available for reference. Project Gerbers can be
 used to manufacture the hardware itself.
 
 ## License [Apache 2.0](http://www.apache.org/licenses/)
