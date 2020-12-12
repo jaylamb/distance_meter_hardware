@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:distance_meter_hardware-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L kicad_parts_library_jdl:PPPC071LFBN-RC J5
+L distance_meter_hardware-rescue:PPPC071LFBN-RC-kicad_parts_library_jdl J5
 U 1 1 5E02B559
 P 7050 4600
 F 0 "J5" V 7100 5100 50  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf" H 70
 	0    1    1    0   
 $EndComp
 $Comp
-L kicad_parts_library_jdl:PPPC071LFBN-RC J6
+L distance_meter_hardware-rescue:PPPC071LFBN-RC-kicad_parts_library_jdl J6
 U 1 1 5E02B683
 P 7050 5200
 F 0 "J6" V 7100 5700 50  0000 C CNN
@@ -37,7 +36,7 @@ F 3 "http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf" H 70
 	0    1    1    0   
 $EndComp
 $Comp
-L kicad_parts_library_jdl:PPPC071LFBN-RC J2
+L distance_meter_hardware-rescue:PPPC071LFBN-RC-kicad_parts_library_jdl J2
 U 1 1 5E02B701
 P 4500 5200
 F 0 "J2" V 4550 5700 50  0000 C CNN
@@ -48,7 +47,7 @@ F 3 "http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf" H 45
 	0    1    1    0   
 $EndComp
 $Comp
-L kicad_parts_library_jdl:PPPC071LFBN-RC J1
+L distance_meter_hardware-rescue:PPPC071LFBN-RC-kicad_parts_library_jdl J1
 U 1 1 5E02B786
 P 4500 4600
 F 0 "J1" V 4550 5100 50  0000 C CNN
@@ -59,7 +58,7 @@ F 3 "http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf" H 45
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR06
+L distance_meter_hardware-rescue:+5V-power #PWR06
 U 1 1 5E14444D
 P 6900 4350
 F 0 "#PWR06" H 6900 4200 50  0001 C CNN
@@ -70,7 +69,7 @@ F 3 "" H 6900 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L distance_meter_hardware-rescue:GND-power #PWR05
 U 1 1 5E144B2C
 P 6650 4750
 F 0 "#PWR05" H 6650 4500 50  0001 C CNN
@@ -87,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4500 6800 4500
 $Comp
-L kicad_parts_library_jdl:PPPC141LFBN-RC J3
+L distance_meter_hardware-rescue:PPPC141LFBN-RC-kicad_parts_library_jdl J3
 U 1 1 5E02B845
 P 5500 3250
 F 0 "J3" H 5550 4050 50  0000 C CNN
@@ -98,7 +97,7 @@ F 3 "http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf" H 55
 	1    0    0    -1  
 $EndComp
 $Comp
-L kicad_parts_library_jdl:PPPC141LFBN-RC J4
+L distance_meter_hardware-rescue:PPPC141LFBN-RC-kicad_parts_library_jdl J4
 U 1 1 5E02B892
 P 6300 3250
 F 0 "J4" H 6350 4050 50  0000 C CNN
@@ -109,7 +108,7 @@ F 3 "http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf" H 63
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR02
+L distance_meter_hardware-rescue:+5V-power #PWR02
 U 1 1 5E15B6D1
 P 4350 4350
 F 0 "#PWR02" H 4350 4200 50  0001 C CNN
@@ -120,7 +119,7 @@ F 3 "" H 4350 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L distance_meter_hardware-rescue:GND-power #PWR01
 U 1 1 5E15BCA9
 P 4100 4700
 F 0 "#PWR01" H 4100 4450 50  0001 C CNN
@@ -139,7 +138,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 3100 6200 3100
 $Comp
-L power:GND #PWR03
+L distance_meter_hardware-rescue:GND-power #PWR03
 U 1 1 5E16B11D
 P 5900 3500
 F 0 "#PWR03" H 5900 3250 50  0001 C CNN
@@ -187,7 +186,7 @@ NoConn ~ 7200 5100
 NoConn ~ 7300 5100
 NoConn ~ 7400 5100
 $Comp
-L power:+5V #PWR04
+L distance_meter_hardware-rescue:+5V-power #PWR04
 U 1 1 5E16612D
 P 6050 3600
 F 0 "#PWR04" H 6050 3450 50  0001 C CNN
@@ -229,7 +228,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 4100 7200 4500
 $Comp
-L jaybird-logo:LOGO #G1
+L distance_meter_hardware-rescue:LOGO-jaybird-logo #G1
 U 1 1 5E1CC8FC
 P 7300 6850
 F 0 "#G1" H 7300 6625 60  0001 C CNN
