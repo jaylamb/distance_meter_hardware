@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name pictures)(type KiCad)(uri /home/jamb/pictures)(options "")(descr ""))
+  (lib (name graphics)(type KiCad)(uri ${KIPRJMOD}/../utility/kicad_parts_library_jdl/footprints/graphics.pretty)(options "")(descr ""))
+  (lib (name headers)(type KiCad)(uri ${KIPRJMOD}/../utility/kicad_parts_library_jdl/footprints/headers.pretty)(options "")(descr ""))
 )

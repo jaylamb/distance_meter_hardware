@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name distance_meter_hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/distance_meter_hardware-rescue.lib)(options "")(descr ""))
+  (lib (name kicad_parts_library_jdl)(type Legacy)(uri ${KIPRJMOD}/../utility/kicad_parts_library_jdl/kicad_parts_library_jdl.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/../utility/kicad-symbols/power.lib)(options "")(descr ""))
 )

@@ -1,0 +1,6 @@
+[submodule "utility/kicad_parts_library_jdl"]
+	path = utility/kicad_parts_library_jdl
+	url = https://github.com/jaylamb/kicad_parts_library_jdl.git
+[submodule "utility/kicad-symbols"]
+	path = utility/kicad-symbols
+	url = https://gitlab.com/kicad/libraries/kicad-symbols.git
